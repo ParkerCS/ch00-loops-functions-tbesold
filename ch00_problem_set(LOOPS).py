@@ -1,3 +1,8 @@
+# 18/20 on functions
+# 20/22 here
+
+
+
 # LOOPS (22pts TOTAL)
 import random
 # PROBLEM 1 (Fibonacci - 4pts)
@@ -7,19 +12,22 @@ import random
 # Write a program that calculates and prints the Fibonacci sequence
 # until the numbers get higher than 1000.
 
-number = 0
+number = 1
 number_2 = 1
 number_3 = 1
 
 while number <= 1000:
+    print(number_2)
     number_3 = number + number_2
-    number += number_3
+    number = number_2
+    number_2 = number_3
+    #number += number_3
 
-    print(number_3)
+    #print(number_3)
 
 #stuck here not sure what to do
 
-
+# Lee - see fix.  You need to update numbers each loop. (-2)
 
 
 
