@@ -72,12 +72,19 @@ def e():
     print(round(math.e ** 3, 5))
 e()
 
+# Lee - Use a for loop for this (-0.5).  DRY principle.
+
 # PROBLEM 5 (Random int - 3pts)
 # Generate a random integer between 1 and 10 (1 and 10 both included),
 # but only use the random() function (randrange is not allowed here)
 
 random_int = int(random.random() * 10)
 print("the random number from 1 to 10 is", random_int)
+
+## Lee - This problem set is based on functions.  Make functions. Should be number from 1 to 10, yours produces 0 to 9.  (-2)
+
+
+
 
 # PROBLEM 6 (add me, multiply me - 3pts)
 # Make a function which takes in two integers and RETURNS their sum AND their product.
